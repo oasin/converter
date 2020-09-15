@@ -1,0 +1,47 @@
+{
+    "name": "oasin/converter",
+    "description": "A lightweight converter",
+    "type": "library",
+    "keywords": [
+        "bitcoin",
+        "currency",
+        "converter",
+        "coinbase",
+        "coindesk",
+        "bitpay",
+        "cryptocurrency"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Oasin Tech",
+            "email": "oasintech@gmail.com",
+            "homepage": "http://www.oasintech.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/cache": "^7.0",
+        "illuminate/filesystem": "^7.0",
+        "composer/composer": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oasin\\BitcoinCurrencyConverter\\": "src/"
+        },
+        "files": [
+            "src/Util/currency_code_checker_helper.php",
+            "src/Util/currency_formatter_helper.php",
+            "src/Util/converter_helper.php",
+            "src/Util/path_helper.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
