@@ -42,6 +42,6 @@
             "src/Util/path_helper.php"
         ]
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
