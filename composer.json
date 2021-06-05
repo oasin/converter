@@ -21,6 +21,9 @@
         }
     ],
     "require": {
+        "guzzlehttp/guzzle": "^6.3|^7.0",
+        "illuminate/cache": "^7.0",
+        "illuminate/filesystem": "^7.0",
         "composer/composer": "^1.5"
     },
     "autoload": {
