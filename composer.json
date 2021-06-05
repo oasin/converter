@@ -20,6 +20,9 @@
             "role": "Developer"
         }
     ],
+    "require": {
+        "composer/composer": "^1.5",
+    },
     "autoload": {
         "psr-4": {
             "Oasin\\BitcoinCurrencyConverter\\": "src/"
