@@ -21,10 +21,7 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6.3|^7.0",
-        "illuminate/cache": "^7.0|^8.4",
-        "illuminate/filesystem": "^7.0|^8.4",
-        "composer/composer": "^1.5"
+        "guzzlehttp/guzzle": ">=6.3",
     },
     "autoload": {
         "psr-4": {
