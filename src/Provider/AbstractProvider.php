@@ -56,13 +56,13 @@ abstract class AbstractProvider implements ProviderInterface
      */
     public function getRate($currencyCode)
     {
-        if (! is_currency_code($currencyCode)) {
+        if (!is_currency_code($currencyCode)) {
             throw new InvalidArgumentException("Argument passed not a valid currency code, '{$currencyCode}' given.");
         }
 
         $exchangeRates = $this->getExchangeRates();
 
-        if (! $this->isSupportedByProvider($currencyCode)) {
+        if (!$this->isSupportedByProvider($currencyCode)) {
             throw new InvalidArgumentException("Argument \$currencyCode '{$currencyCode}' not supported by provider.");
         }
 
